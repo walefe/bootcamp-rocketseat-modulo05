@@ -2,7 +2,7 @@
 
 [Live Preview](https://silly-mayer-34d19c.netlify.com/)
 
- <img src="./src/assets/searchRepo.png" alt="PRs Welcome">
+ <img src="./src/assets/searchRepo.png" alt="PRs Welcome" border-radio="4px">
 
  <br/>
  <br/>
