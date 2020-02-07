@@ -1,6 +1,4 @@
-/* eslint-disable react/state-in-constructor */
 import React, { Component } from 'react';
-
 import { FaGithubAlt, FaPlus, FaSpinner } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
@@ -17,7 +15,7 @@ export default class Main extends Component {
     error: null,
   };
 
-  // Carregar os dados do locaslStorage
+  // Carregar os dados do localStorage
   componentDidMount() {
     const repositories = localStorage.getItem('repositories');
 
@@ -47,11 +45,11 @@ export default class Main extends Component {
     try {
       const { newRepo, repositories } = this.state;
 
-      if (newRepo === '') throw 'Você precisa informar um repositório.';
+      if (newRepo === '') throw 'Você precisa informar um repositório';
 
       const hasRepo = repositories.find(r => r.name === newRepo);
 
-      if (hasRepo) throw 'Repositório duplicado.';
+      if (hasRepo) throw 'Repositório duplicado';
 
       const response = await api.get(`/repos/${newRepo}`);
 
@@ -72,6 +70,7 @@ export default class Main extends Component {
 
   render() {
     const { newRepo, repositories, loading, error } = this.state;
+
     return (
       <Container>
         <h1>
@@ -95,6 +94,7 @@ export default class Main extends Component {
             )}
           </SubmitButton>
         </Form>
+
         <List>
           {repositories.map(repository => (
             <li key={repository.name}>

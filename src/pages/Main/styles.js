@@ -12,7 +12,7 @@ export const Form = styled.form`
     border-radius: 4px;
     font-size: 16px;
 
-    transition: border 0.25s ease-out;
+    transition: border 0.25 ease-out;
   }
 `;
 
@@ -25,6 +25,7 @@ const rotate = keyframes`
     transform: rotate(360deg);
   }
 `;
+
 export const SubmitButton = styled.button.attrs(props => ({
   type: 'submit',
   disabled: props.loading,
