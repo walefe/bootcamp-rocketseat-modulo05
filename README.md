@@ -1,10 +1,9 @@
 ## módulo05 do bootcamp - Rocketseat
 
-[Live Preview](<[server](https://silly-mayer-34d19c.netlify.com/)>)
+[Live Preview][server](https://silly-mayer-34d19c.netlify.com/)
 
  <img src="./src/assets/searchRepo.png" alt="PRs Welcome">
 
- <br/>
  <br/>
  <br/>
 
