@@ -2,12 +2,12 @@
 
 [Live Preview](https://silly-mayer-34d19c.netlify.com/)
 
- <img src="./src/assets/searchRepo.png" alt="PRs Welcome" border-radio="4px" height="50" width="35">
+ <img src="./src/assets/searchRepo.png" alt="PRs Welcome" border-radio="4px" height="100" width="100">
 
  <br/>
  <br/>
 
- <img src="./src/assets/Repo.png" alt="PRs Welcome">
+ <img src="./src/assets/Repo.png" alt="PRs Welcome" height="100" width="100">
 
 <p align="center">
   <a href="http://makeapullrequest.com">
