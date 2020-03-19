@@ -2,7 +2,7 @@
 
 [Live Preview](https://silly-mayer-34d19c.netlify.com/)
 
- <img src="./src/assets/searchRepo.png" alt="PRs Welcome" border-radio="4px">
+ <img src="./src/assets/searchRepo.png" alt="PRs Welcome" border-radio="4px" height="50" width="35">
 
  <br/>
  <br/>
@@ -14,6 +14,8 @@
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome">
   </a>
 </p>
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/85156236-f4e0-4969-a500-0b5674e162e1/deploy-status)](https://app.netlify.com/sites/gitwalefe/deploys)
 
 <hr />
 
